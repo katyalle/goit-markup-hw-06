@@ -1,0 +1,82 @@
+@media screen and (min-width: 1158px){
+    .container {
+            width: 1158px;
+        }
+    
+        .hero-p {
+            width: 1128px;
+        }
+    
+        .advice {
+            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+            url(../images/Dark-bg.jpg)
+        }
+    
+        @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+         .advice {
+             background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+             url(../images/Dark-bg-2x.jpg);
+            }
+        }
+        
+                .all-footer {
+                    display: flex;
+                    align-items: baseline;
+        
+                }
+        
+               
+                .footer-p {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 1.5;
+                    color: var(--background-color-sec);
+                    letter-spacing: 0.02em;
+                    max-width: 264px;
+                }
+        
+                .form {
+                    display: flex;
+                    gap: 24px;
+                }
+        
+            }
+
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 755px;
+    }
+    .hero-p{
+        width: 736px;
+    }
+    .advice{
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+        url(../images/Dark-bg-tab.jpg)
+    }
+
+     @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+     .advice {
+         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+         url(../images/Dark-bg-tab-2x.jpg);
+            }}
+    .hero-list{
+                flex-direction: row;
+            }
+     .cont-hero {
+      width: calc((100% - 72px) / 4)
+     }}
+
+
+
+
