@@ -1,10 +1,4 @@
 
-
-
-
-
-
-
 @media screen and (min-width: 768px) {
     .container{
         width: 755px;
@@ -55,11 +49,14 @@
 }
 
 .ul-five{
-    width: 552px;
+    width: 584px;
     height: 360px;
     row-gap: 72px;
+    padding: 0;
 }
-
+.li-five{
+    width: calc((100%-48)/3);
+}
 
 
 
@@ -108,16 +105,7 @@
 .modal {
     width: 408px;
 }
-
-
-
-
-
-
-
-
-
-
+.js-open-menu{display: none;};
 }
 
 
@@ -153,6 +141,7 @@
         (min-resolution: 192dpi),
         (min-resolution: 2dppx) {
          .advice {
+            max-width: 2560px;
              background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
              url(../images/Dark-bg-2x.jpg);
             }
@@ -235,6 +224,8 @@
 
 
  .ul-five {
+    height: 88px;
+    width: 100%;
      flex-wrap: nowrap;
      justify-content: center;
  }
@@ -249,11 +240,14 @@
     width: 408px;
 }
 
+.js-open-menu{
+    display: none;
+}
 
 
 
 
 
 
-
-            }
+        
+}

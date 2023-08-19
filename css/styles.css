@@ -179,7 +179,7 @@ align-items: center;
 .svg-menu{
   stroke: #2E2F42;
 }
-.open-menu{
+.js-open-menu{
     display: flex;
     background-color: transparent;
     width: 32px;
@@ -191,7 +191,7 @@ align-items: center;
 
 
 
-.menu-header{
+.js-menu-container{
     position: fixed;
     top:0;
     z-index: 20;
@@ -207,7 +207,7 @@ align-items: center;
 .menu-list{
     margin-bottom: 100px;
 }
- .menu-close {
+ .js-close-menu{
     margin-bottom: 32px;
      position: absolute;
      top: 24px;
@@ -362,14 +362,16 @@ color: #404BBF;
 padding-top: 188px;
 background-size: cover;
 background-position: center;
+min-width: 320px;
 max-width: 1440px;    
 padding-top: 188px;
 padding-bottom: 188px;
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-max-width: 1440px; 
+ 
 margin: 0 auto; 
+
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/Dark-bg-mob.jpg);
 }
 @media (min-device-pixel-ratio: 2),
