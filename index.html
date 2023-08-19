@@ -35,12 +35,101 @@
                 <li><a class="header-link-second link" href="tel:+110001111111"> +11 (000) 111-11-11</a></li>
             </ul>
         </address>
-    </div>
-<button type="button" class="open-menu">
+        <button type="button" class="open-menu" data-menu-open>
     <svg width="32" height="22" class="svg-menu">
     <use href="./images/icons.svg#icon-charm_menu-hamburger"></use>
 </svg>
 </button>
+    </div>
+
+
+
+
+
+
+
+
+
+<div class="menu-header is-hidden">
+<div class="top-menu">
+   <button type="button" class="menu-close " data-menu-close>
+    
+        <svg width="8" height="8" class="close-modal">
+            <use href="./images/icons.svg#icon-cross"></use>
+        </svg>
+    
+    </button>
+
+    <ul class="menu-list list">
+        <li>
+            <a class="menu-link link" href="./index.html">Studio</a>
+        </li>
+        <li>
+            <a class="menu-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li>
+            <a class="menu-link link" href="">Contacts</a>
+        </li>
+    </ul>
+ 
+</div>
+    
+
+
+    <address class="menu-contacts ">
+        <ul class="menu-list-second list">
+            <li><a class="menu-link-second-tel link" href="tel:+110001111111"> +11 (000) 111-11-11</a></li>
+            <li><a class="menu-link-second link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            
+        </ul>
+    </address>
+    <ul class="menu-social-list">
+        <li class="menu-li list">
+            <a class="social-list-menu" href="#">
+                <svg width="24" height="24" class="svg-color">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+            </a>
+        </li>
+    
+        <li class="menu-li list">
+            <a class="social-list-menu" href="#">
+                <svg width="24" height="24" class="svg-color">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+            </a>
+        </li>
+    
+        <li class="menu-li list">
+            <a class="social-list-menu" href="#">
+                <svg width="24" height="24" class="svg-color">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+            </a>
+        </li>
+    
+        <li class="menu-li list">
+            <a class="social-list-menu" href="#">
+                <svg width="24" height="24" class="svg-color">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </header> 
     <main>
@@ -51,7 +140,7 @@
          </div>
     </section> 
            
-   
+ 
     <section class="hero">
     <div class="container">
         <h2 hidden class="visually-hidden">info</h2>
@@ -98,8 +187,8 @@
                 <p class="hero-p">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p> </li>
         </ul> 
         </div>
-        </section> 
-<!--  
+        </section>  
+
    <section class="about">
     <div class="container ">
 <h2 class="title-about">What Are We Doing</h2>
@@ -118,9 +207,9 @@
     height="300"></li>
 </ul>
     </div>
-   </section>          -->
+   </section>          
     
-         <!-- <section class="our-team list">
+          <section class="our-team list">
         <div class=" container"> 
         <h2 class="title-about">Our Team</h2>
         
@@ -288,10 +377,10 @@
     
         </ul>
         </div>
-    </section> -->
+    </section> 
 
-    <!-- <section class="five">
-        <div class="container">
+     <section class="five">
+        <div class="container content-five-svg">
             <h2 class="title-five">Customers</h2>
                 <ul class="ul-five">
                     <li class="li-five list">
@@ -341,7 +430,7 @@
                 </ul>
             
         </div>
-    </section> -->
+    </section> 
         </main>
 
     <footer class="footer">
@@ -414,7 +503,7 @@
 
 
 
-    <!-- <div class="backdrop is-hidden" data-modal>
+     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
             <button type="button" class="modal-close " data-modal-close>
         
@@ -482,7 +571,8 @@
             <button type="submit" class="send"><span class="check-text-span">Send</span></button>
         </form>
     </div>
-    </div>  -->
+    </div>  
 <script src="./js/modal.js"></script>
+<script src="./js/mobile-menu.js"></script>
 </body>
 </html>
