@@ -49,15 +49,16 @@
 }
 
 .ul-five{
+    width: calc((100%-48) / 3);
     width: 584px;
     height: 360px;
     row-gap: 72px;
     padding: 0;
 }
-.li-five{
-    width: calc((100%-48)/3);
-}
 
+.link-five{
+    width: 168px;
+}
 
 
 

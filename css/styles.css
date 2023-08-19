@@ -188,10 +188,17 @@ align-items: center;
     margin-left: auto;
 }
 
-
+.js-menu-container.is-open{
+    opacity: 1;
+visibility: visible;
+pointer-events: auto;
+}
 
 
 .js-menu-container{
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
     position: fixed;
     top:0;
     z-index: 20;
@@ -254,8 +261,10 @@ color: #404BBF;
 }
 
 .menu-link-second{
-    display: flex;
-        gap: 40px;
+        font-family: 'Roboto';
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -270,8 +279,9 @@ color: #404BBF;
 color: #404BBF;
 }
 
-.social-list-menu{
-
+.menu-social-list{
+    margin-bottom: 40px;
+padding-top: 48px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -437,6 +447,9 @@ font-family: Roboto;
 .cont-hero {
     width: 100%;
 }
+.four-text{
+    width: 100%;
+}
 .hero {
     padding: 120px 0;
 
@@ -586,7 +599,8 @@ width: 264px;
             padding: 120px 0;
         }
         .content-five-svg{
-         padding: 0; 
+            min-width: 428px;
+         padding: 0 16px; 
         }
        .title-five{
             font-family: 'Roboto';
@@ -605,14 +619,14 @@ width: 264px;
        .ul-five{
         flex-wrap: wrap;
             display: flex;
-            gap: 24px;
+            gap: 72px 16px;
            justify-content: normal;
-           padding: 12px;
+          
         }
        .li-five{
-            width: calc((100% - 120px) / 6);
+            width: calc((100% - 16px) / 2);
 
-            width: 190px;
+            
             height: 88px;
         }
        .link-five{
@@ -656,14 +670,13 @@ width: 264px;
     padding: 100px 0
 }
 .all-footer{
+    width: 268px;
     display: flex;
     align-items: baseline;
     flex-direction: column;
   
 }
- .div-link {
-     margin-right: 120px;
- }
+ 
 .footer-logo{
     display: inline-block;
     margin-bottom: 16px;
@@ -759,7 +772,7 @@ width: 264px;
 }
 .sub-sec {
     display: block;
-    margin-left: 80px;
+   
 }
 .form {
     flex-direction: column;
